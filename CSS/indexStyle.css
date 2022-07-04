@@ -1,0 +1,155 @@
+*{
+	color: aliceblue;
+}
+/* body{
+	
+} */
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+  }
+  
+.cont1{
+	width: 60%;
+	height: 80vh;
+	margin: 4% 20% ;
+	/* border: 2px solid black; */
+	border-radius: 15%;
+	background-color: rgba(8, 8, 8, 0.616);
+	opacity: 1;
+	z-index: 2;
+	position: absolute;
+
+}
+.cont2{
+	width: 60%;
+	height: 80vh;
+	margin: 4% 20% ;
+	/* border: 2px solid black; */
+	border-radius: 15%;
+
+	background-color: rgba(0, 0, 0, 0.616);
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+.box1{
+	width: 96%;
+	height: 30%;
+	margin: 5% 2% ;
+	/* border: 2px solid rgb(255, 255, 255); */
+	border-radius: 10%;
+
+}
+.box2{
+	width: 96%;
+	height:50%;
+	margin: 8% 10px ;
+	border-radius: 10%;
+	/* border: 2px solid rgb(238, 228, 228); */
+}
+.cont2 .box1{
+	height: 60%;
+	width: 90%;
+	margin: 5%;
+
+}
+.box3{
+	width: 96%;
+	height: 15%;
+	margin: 2% 2%;
+	/* border: 2px solid rgb(255, 246, 246); */
+	/* position: relative;
+	bottom: 1%; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.box2 h1{
+	/* font-family: 'Splash', cursive; */
+
+	margin-left: 10%;
+	font-size: 3vh;
+
+	
+	
+}
+.box1 h1{
+	/* font-family: 'Splash', cursive; */
+	margin-left: 25%;
+	/* font-size: 8vh; */
+	font-size: 8vh;
+
+}
+#nameOfPerson{
+	font-size: 10vh;
+
+}
+#name{
+	width: 80%;
+	height: 10vh;
+	margin: 1%;
+	margin-left: 8%;
+	border-radius:10%;
+	background-color: rgba(0, 0, 0, 0.925);
+	font-size: 8vh;
+	/* border: none;
+	border: 0px solid red; */
+	/* font-size: 80%; */
+}
+#welcome{
+	margin-left: 35%;
+
+}
+#submitBtn{
+	width: 175px;
+	height: 45px;
+	margin-left: 37%;
+	margin-top: 5%;
+	background-color: rgba(24, 22, 22, 0.658);
+	color: white;
+	border-radius: 15%;
+}
+
+
+.cont2 h1{
+	margin-left: 15%;
+	font-size: 5vh;
+	display: inline-block;
+	width: fit-content;
+	
+}
+
+
+.btn{
+	
+	width: 40%;
+	height: 45px;
+	margin-left: 5%;
+	margin-top: 5%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	background-color: rgba(24, 22, 22, 0.658);
+	color: white;
+	border-radius: 15%;
+}
+/* #welcome{
+	disp
+} */
+
+@media screen and (max-width:900px ){
+	.cont1 h1{
+		font-size: 3vh;
+	}
+	.box2 h1{
+		font-size: 1.5vh;
+	}
+	#name{
+		height: 10%;
+	}
+	
+}

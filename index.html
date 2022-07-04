@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./CSS/indexStyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<video autoplay muted loop id="myVideo" type="video/mp4">
+		<source src="..//media/World.mp4" >
+	  </video>
+	  <audio id="myAudio">
+		<source src="../media/audioOnClick.wav" type="audio/ogg">
+	  </audio>
+	<div class="cont1" id="a1">
+		<div class="box1" id="box1">
+			<h1>TEST YOUR <br> <span style="margin-left: 20%; font-size: 10vh;"> IQ</span> <br><span style="margin-left: 15%;"> HERE</span></h1>
+		</div>
+		
+		<div class="box2">
+			<h1>ENTER___YOUR___NAME :</h1>
+			<input type="text" id="name" value="" required><br>
+			<button id="submitBtn" onclick="nextPage()">Next</button>
+		</div>
+	</div>
+	<div class="cont2" id="a2">
+		<div class="box1">
+			<h1 id="welcome">HELLO !</h1><br>
+			<h1 id="nameOfPerson">NameOfPerson</h1>
+		</div>
+		<div class="box3">
+			<button class="btn" id="goBackBtn" onclick="previousPage()">Go Back</button>
+			<button class="btn" id="startBtn" onclick="loadQuiz()">Let's Start</button>
+		</div>
+
+	</div>
+
+
+	<script src="./JAVASCRIPT/indexJs.js"></script>
+</body>
+
+</html>

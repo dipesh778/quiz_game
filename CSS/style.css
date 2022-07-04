@@ -1,0 +1,125 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+body{
+	color: white;
+	font-size: x-large;
+	
+}
+#myVideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -1;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 5,
+  'wght' 400,
+  'GRAD' 10,
+  'opsz' 48;
+  position: fixed;
+  right: 10%;
+  top: 5%;
+  color: aliceblue;
+  font-size: 64px;
+  
+}
+
+  
+.cont1{
+
+	width: 60%;
+	height: 80vh;
+	margin: 4% 20% ;
+	border-radius: 15%;
+	background-color: rgba(8, 8, 8, 0.6);
+	opacity: 1;
+	z-index: 2;
+	position: absolute;
+
+}
+.box1{
+	width: 80%;
+	height: 22%;
+	margin: 3% 2% ;
+	border-radius: 15%;
+	padding: 5%;
+	font-size: larger;
+}
+
+.cont1 .box2{
+	width: 96%;
+	height: 35%;
+	margin: 3% 10px ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#box2_1,#box2_2,#box2_3,#box2_4{
+	width: 40%;
+	height: 25%;
+	margin: 3% 4% ;
+	border: 2px solid black;
+	border-radius: 10%;
+
+}
+
+.optn{
+	color: red;
+	width: 20%;
+	height: 55%;
+	margin: 3%;
+}
+.box3{
+	width: 96%;
+	height: 10%;
+	margin: 3% 10px ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#nextBtn,#submitBtn{
+	width: 40%;
+	height: 65%;
+	margin: 2% 4.5% ;
+	background-color: rgba(24, 22, 22, 0.658);
+	color: white;
+	border-radius: 15%;
+}
+
+
+.cont2{
+	width: 60%;
+	height: 80vh;
+	margin: 4% 20% ;
+	background-color: rgba(24, 22, 22, 0.658);
+	color: white;
+	border-radius: 15%;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+
+}
+.cont2 .box1{
+	font-size: x-large;
+
+	margin-top: 10%;
+	margin-left: 25%;
+	margin: 11% 5% 5% 23% ;
+
+}
+#homeBtn{
+	width: 175px;
+	height: 45px;
+	margin-left: 37%;
+	margin-top: 30%;
+	background-color: rgba(24, 22, 22, 0.658);
+	color: white;
+	border-radius: 15%;
+}
